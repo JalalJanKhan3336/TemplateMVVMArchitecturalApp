@@ -1,0 +1,458 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Material theme. -->
+    <style name="AppMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Large_Text_Bold_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/colorTextHeading</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Normal_Large_Text_Bold_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Normal_Text_Bold_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Small_Text_Bold_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/colorTextHeading</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Small_Text_Normal_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="Small_Text_Normal_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="Small_Required_Text_Normal_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:drawablePadding">@dimen/_4sdp</item>
+        <item name="android:drawableEnd">@drawable/ic_required</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+
+    </style>
+
+    <style name="Smallest_Required_Text_Normal_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:drawablePadding">@dimen/_4sdp</item>
+        <item name="android:drawableEnd">@drawable/ic_required</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+
+    </style>
+
+    <style name="Smallest_Text_Normal_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="Smallest_Text_Bold_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorTextHeading</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Smallest_Text_Normal_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="Smallest_Text_Normal_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="XSmallest_Text_Normal_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_7ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="XSmallest_Text_Normal_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_7ssp</item>
+        <item name="android:textColor">@color/colorTextParagraph</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+
+    <style name="Smallest_Text_With_Icon_Normal_Wrap_Style" parent="Smallest_Text_Normal_Wrap_Style">
+
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:drawablePadding">@dimen/_4sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@android:color/white</item>
+
+    </style>
+
+    <!-- Height & Width Styling -->
+    <style name="Match_Width_Match_Height_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Match_Width_Wrap_Height_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Wrap_Width_Match_Height_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Zero_Width_Wrap_Height_Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Wrap_Width_Wrap_Height_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Card Styling -->
+    <style name="End_CardItem_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="CardView_Regular_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+        <item name="cardCornerRadius">@dimen/_10sdp</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="CardView_Regular_With_No_Bottom_Margin_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+        <item name="cardCornerRadius">@dimen/_10sdp</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="CardView_Regular_Wrap_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+        <item name="cardCornerRadius">@dimen/_10sdp</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Start_CardItem_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Dashboard CardView Styling -->
+    <style name="Dashboard_Top_Left_CardView_Fix_Style" parent="Start_CardItem_Wrap_Style">
+        <item name="android:layout_height">@dimen/_100sdp</item>
+        <item name="android:layout_marginStart">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardElevation">@dimen/_4sdp</item>
+    </style>
+
+    <style name="Dashboard_Top_Right_CardView_Fix_Style" parent="End_CardItem_Wrap_Style">
+        <item name="android:layout_height">@dimen/_100sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardElevation">@dimen/_4sdp</item>
+    </style>
+
+    <style name="Dashboard_Left_CardView_Fix_Style" parent="Dashboard_Top_Left_CardView_Fix_Style">
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginBottom">@dimen/_8sdp</item>
+    </style>
+
+    <style name="Dashboard_Right_CardView_Fix_Style" parent="Dashboard_Top_Right_CardView_Fix_Style">
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <!-- Dashboard Image Icon Styling -->
+    <style name="Dashboard_Image_Icon_Fix_Style" parent="Card_Image_Icon_Normal_Margin_Style">
+        <item name="android:layout_width">@dimen/_40sdp</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+    </style>
+
+    <!-- Dashboard Text Styling -->
+    <style name="Dashboard_Text_Style" parent="Card_Smallest_Text_Normal_Wrap_Style">
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+    </style>
+
+    <!-- Edit Text Field Styling -->
+    <style name="Small_Input_Field_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/_36sdp</item>
+        <item name="android:background">@drawable/input_field_rounded_bg</item>
+        <item name="android:paddingStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+
+    </style>
+
+    <style name="Small_Rounded_Input_Field_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/_36sdp</item>
+        <item name="android:background">@drawable/input_field_180_rounded_bg</item>
+        <item name="android:paddingStart">@dimen/_12sdp</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+    <style name="Card_Smallest_Text_Normal_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textColor">@color/colorTextHeading</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginStart">@dimen/_8sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_8sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Card_Image_Icon_Normal_Margin_Style">
+
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_16sdp</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <!-- CardView or ImageIcon Styling -->
+    <style name="Normal_Icon_Style" parent="CardView_Regular_Wrap_Wrap_Style">
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="tint">@color/colorAccent</item>
+        <item name="android:background">@drawable/circular_white_bg</item>
+        <item name="android:elevation" tools:ignore="NewApi">@dimen/_8sdp</item>
+        <item name="android:foreground">?attr/actionBarItemBackground</item>
+
+    </style>
+
+    <!-- Table Cell Text Style -->
+    <style name="Table_Row_Cell_Smallest_Text_Normal_Wrap_Match_Style" parent="Wrap_Width_Match_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/colorTextHeading</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/table_content_cell_bg</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:padding">@dimen/_6sdp</item>
+
+    </style>
+
+    <!-- Button Styling -->
+    <style name="Small_Text_Normal_Gradient_Button_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/_30sdp</item>
+        <item name="android:background">@drawable/linear_grad_rounded_bg</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="Small_Text_Normal_Rounded_Button_Wrap_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:background">@drawable/rounded_btn_bg</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="Small_Text_Normal_Gradient_Button_Wrap_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/_30sdp</item>
+        <item name="android:background">@drawable/linear_grad_rounded_bg</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="Small_Text_Normal_Rectangular_Primary_Button_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/_30sdp</item>
+        <item name="android:background">@drawable/btn_press_selector</item>
+
+    </style>
+
+    <style name="Small_Text_Normal_Rounded_Primary_Button_Wrap_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/_30sdp</item>
+        <item name="android:background">@drawable/btn_press_selector</item>
+    </style>
+
+    <style name="Small_Text_Normal_White_Iconic_Rounded_Button_Wrap_Wrap_Style" parent="Small_Text_Normal_Rounded_Primary_Button_Wrap_Wrap_Style">
+        <item name="android:paddingStart">@dimen/_10sdp</item>
+        <item name="android:paddingEnd">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:drawablePadding">@dimen/_4sdp</item>
+    </style>
+
+    <!-- Extended Floating Action Button Styling   -->
+    <style name="Small_Text_Normal_Extended_Button_Wrap_Wrap_Style" parent="Wrap_Width_Wrap_Height_Style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_height">@dimen/_33sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="iconTint">@android:color/white</item>
+        <item name="android:foreground">?attr/actionBarItemBackground</item>
+        <item name="android:theme">@style/Theme.MaterialComponents.Light.DarkActionBar</item>
+
+    </style>
+
+    <!-- BottomNavigationView Styling -->
+    <style name="BottomNavView_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_48sdp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="itemIconSize">@dimen/_16sdp</item>
+        <item name="itemIconTint">@color/item_selected</item>
+        <item name="itemTextColor">@color/item_selected</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemTextAppearanceActive">@style/Smallest_Text_Normal_Style</item>
+        <item name="itemTextAppearanceInactive">@style/XSmallest_Text_Normal_Style</item>
+
+    </style>
+
+    <style name="Icon_Circular_Bg_30_30_Style">
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:background">@drawable/circle_white_bg</item>
+        <item name="android:elevation">@dimen/_4sdp</item>
+    </style>
+
+    <!-- LinearLayout Vertical Styling -->
+    <style name="VerticalLinear_RoundedBg_Match_Wrap_Style" parent="Match_Width_Wrap_Height_Style">
+        <item name="android:elevation">@dimen/_6sdp</item>
+        <item name="android:background">@drawable/slight_rounded_corners_bg</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:layout_margin">@dimen/_16sdp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SearchView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_33sdp"
+    android:id="@+id/search_view"
+    app:queryHint="@string/search"
+    app:iconifiedByDefault="false"
+    app:searchIcon="@null"
+    app:queryBackground="@drawable/input_field_rounded_bg"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mvvm.ui.common.SearchFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>

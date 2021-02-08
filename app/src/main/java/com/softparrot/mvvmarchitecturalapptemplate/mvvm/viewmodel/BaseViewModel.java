@@ -1,10 +1,9 @@
 package com.softparrot.mvvmarchitecturalapptemplate.mvvm.viewmodel;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.softparrot.mvvmarchitecturalapptemplate.extras.manager.SingleLiveEventManager;
-import com.softparrot.mvvmarchitecturalapptemplate.mvvm.repository.ResponseBody;
+import com.softparrot.mvvmarchitecturalapptemplate.mvvm.repository.model.helper.ResponseBody;
 
 public class BaseViewModel extends ViewModel {
     private SingleLiveEventManager<ResponseBody<Void>> mNotifierLiveData;

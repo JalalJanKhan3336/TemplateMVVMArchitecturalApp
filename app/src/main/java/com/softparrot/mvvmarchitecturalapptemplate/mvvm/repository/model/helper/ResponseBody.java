@@ -1,4 +1,4 @@
-package com.softparrot.mvvmarchitecturalapptemplate.mvvm.repository;
+package com.softparrot.mvvmarchitecturalapptemplate.mvvm.repository.model.helper;
 
 import android.text.TextUtils;
 
