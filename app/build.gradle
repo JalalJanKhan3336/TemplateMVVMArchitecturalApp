@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.softparrot.mvvmarchitecturalapptemplate"
+        applicationId "com.nextdimit.mvvmtemplate"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 1

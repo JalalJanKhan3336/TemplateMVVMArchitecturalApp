@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">MVVM Architectural App Template</string>
+    <string name="app_name">MVVM App Template</string>
     <string name="search">Search</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="loading_plz_wait">Loading... Please wait</string>
+    <string name="loading_plz_wait">Loading… Please wait</string>
     <string name="zero">0</string>
 </resources>
